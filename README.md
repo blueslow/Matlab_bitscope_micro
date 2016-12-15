@@ -1,6 +1,6 @@
 # Matlab_bitscope_micro
 This is an example of how to interface BitScope (http://www.bitscope.com/) Micro (http://www.bitscope.com/product/BS05/)
-to matlab using python. It was developed as a minor project in a introductory MatLab course at Chalmers Technology University (http://www.chalmers.se/en/Pages/default.aspx).
+to matlab using python. It was developed as a minor project in an introductory MatLab course at Chalmers Technology University (http://www.chalmers.se/en/Pages/default.aspx).
 
 It uses a modfied version of machine_scope and utlities that Bruce Tulloch developed
 in the bitbucket PiLab Project (https://bitbucket.org/bitscope/pilab/src/9eefac861818?at=default).
@@ -11,7 +11,7 @@ It has been tested on Linux Mint 18 and Macbook (OS X).
 
 Dependencies: Python 2.7, pyserial, MATLAB (2016b).
 
-The main.m matlab script provides means to start the wave generator in the bitscope and take 1024 samples and displaying the result in a gui window via channel A or B if connected to the wave generator output via probes. It has rudimentary functions such as save the samples to a file, to MatLabs workspace and make a few calclation on the signals. It has limited functions regarding ranges, trigger, et.c..
+The main.m matlab script provides means to start the wave generator in the bitscope and take 1024 samples and displaying the result in a gui window via channel A or B if connected to the wave generator output via probes. It has rudimentary functions such as save the samples to a file, to MatLabs workspace and make a few calclations on the sampled signals. It has limited functions regarding ranges, trigger, et.c..
 
 main.m - Load the python library, test that bitscope is connected and the call the matlab gui scope.
 scope.m - The gui event functions.
